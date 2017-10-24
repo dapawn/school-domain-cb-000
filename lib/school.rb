@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    sorted = @roster.sort.to_s
+    @roster.sort.to_s
   end
 
 end

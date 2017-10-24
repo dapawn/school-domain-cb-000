@@ -6,7 +6,7 @@ class School
   def initialize  (name)
     @name = name
     @roster = {}
-    (1..12).each {|grade| roster[grade] = []}
+  #  (1..12).each {|grade| roster[grade] = []}
   end
 
   def add_student(name,grade)

@@ -20,7 +20,8 @@ class School
 
   def sort
     sorted = {}
-    @roster.each { |g|  sorted << g.sort}
+    @roster.each { |g,v|  sorted[g] = v.sort}
+    sorted
   end
 
 end

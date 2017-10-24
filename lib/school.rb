@@ -19,7 +19,8 @@ class School
   end
 
   def sort
-    @roster.sort.to_s
+    sorted = {}
+    @roster.each { |g|  sorted << g.sort}
   end
 
 end
